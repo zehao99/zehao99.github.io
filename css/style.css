@@ -59,9 +59,10 @@ a {
 
 #navbar ul a{
     color: #333;
-    padding: 20px
+    padding: 20px;
     text-align: center;
 }
+
 #navbar ul a:hover,
 #navbar ul li a.current{ 
     color: #005091;
