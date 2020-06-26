@@ -62,7 +62,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 90%;
+    height: 80%;
 }
 
 #maintext h1{
@@ -96,7 +96,7 @@ body{
     align-self: center;
     flex-direction: column;
     justify-content: center;
-    height: 10%;
+    height: 20%;
     
 }
 
@@ -127,5 +127,6 @@ body{
     color: var(--primary-color);
     margin-top: 15px;
     font-size: 12x;
+    margin-bottom: 50px;
 }
 
