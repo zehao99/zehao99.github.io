@@ -70,9 +70,9 @@
     transform: rotate(90deg);
 }
 
-.menu-wrap .toggler:hover + .hamburger > div{
+/* .menu-wrap .toggler:hover + .hamburger > div{
     transform: rotate(-90deg);
-}
+} */
 
 .menu-wrap .toggler:checked:hover + .hamburger > div{
     transform: rotate(225deg);
@@ -100,8 +100,8 @@
 /* scale to 0 to realize the effect */
 .menu-wrap .menu > div{
     background:var(--overlay-color);
-    width: 300vw;
-    height: 300vw;
+    width: 500vw;
+    height: 500vw;
     border-radius: 50%;
     display: flex;
     flex: none;
@@ -146,6 +146,4 @@
     opacity: 1;
     transition: opacity 0.4s ease-in-out;
 }
-
-
 
