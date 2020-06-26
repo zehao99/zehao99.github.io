@@ -4,35 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="This is my personal website">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Noto+Sans+JP&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dab8888e3c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
     <title>Zehao Li</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="navbar">
-                <h1><a href="index.html">Zehao Li</a></h1>
-                <ul>
-                    <li><a href="index.html" class="btn current">Home</a></li>
-                    <li><a href="self-Intro.html" class="btn">About Me</a></li>
-                    <li><a href="https://philipli.art" class="btn">Portfolio</a></li>
-                </ul>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div class=""></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="https://philipli.art">Portfolio</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        
-    </header>
-    <section>
-        <div class="container">
-            <h2 class="blue-text">This is my website</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsam fugit mollitia voluptas unde molestiae veniam eum excepturi eius quaerat, deserunt iure commodi! Exercitationem nostrum accusamus commodi. Incidunt, a sunt!</p>
+    </div>
+    <header id = "maintext">
+        <div class="container maintext-container">
+            <div class="content">
+                <h1>Sense & Simplicity</h1>
+                <a href="https://philipli.art/latest-works/" class="btn">Latest Works</a>
+            </div>
+            <div class="footer-text">
+                <div class="icons">
+                    <a href="https://www.instagram.com/zehao99/"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://philipli.art/contact_me/"><i class="far fa-envelope fa-2x"></i></a>
+                </div>
+                <p>&copy; Zehao Li All Rights Reserved</p>
+            </div>
         </div>
-    </section>
+    </header>
 
     <footer>
-        <div id="footer-text" class="container">
-            <p>&copy; Zehao Li All Rights Reserved</p>
-        </div>
         
     </footer>
 </body>
