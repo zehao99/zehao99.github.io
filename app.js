@@ -1,2 +1,3 @@
-const domBody = document.querySelector("body");
-domBody.style.Height = window.innerHeight;
+const domBody = document.querySelector("#maintext");
+domBody.style.height = window.innerHeight + "px";
+document.body.style.height = window.innerHeight + "px";
