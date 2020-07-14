@@ -30,7 +30,7 @@ body {
 #maintext {
   background: transparent;
   color: var(--primary-color);
-  height: 100vh;
+  height: 100%;
   position: relative;
 }
 
@@ -148,14 +148,14 @@ body {
 
 @media (max-width: 600px) {
   #maintext .content {
-    height: 70%;
+    height: 80%;
   }
 
   #maintext .footer-text {
-    height: 30%;
+    height: 20%;
   }
 
   #maintext .footer-text p {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
 }
